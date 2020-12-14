@@ -1,0 +1,34 @@
+var webservice_data = {
+    people: [
+    { uid: '1', name: 'Andrés', surname1: 'Gómez', age: 10, height: 180,
+   weight: 75 },
+    { uid: '2', name: 'María', surname1: 'Martínez', age: 40, height: 165,
+   weight: 55 },
+    { uid: '3', name: 'Juan', surname1: 'Palacios', age: 85, height: 160,
+   weight: 70 },
+    { uid: '4', name: 'Marta', surname1: 'Domingo', age: 25, height: 180,
+   weight: 70 },
+    { uid: '5', name: 'Fausta', surname1: 'Sanz', age: 55, height: 155,
+   weight: 45 }
+    ],
+    countries: [
+    { id: '1', countryName: 'España', region: 'Europa' },
+    { id: '2', countryName: 'Francia', region: 'Europa' },
+    { id: '3', countryName: 'Colombia', region: 'America' },
+    { id: '4', countryName: 'Japón', region: 'Asia' },
+    ],
+    studies: [
+    { id: '1', level: 'Universidad' },
+    { id: '2', level: 'Instituto' },
+    ],
+    gender: [
+    { id: '1', type: 'Hombre' },
+    { id: '2', type: 'Mujer' }
+    ],
+    bloodType: [
+    { id: '1', bloodName: 'A' },
+    { id: '2', bloodName: 'B' },
+    { id: '3', bloodName: 'AB' },
+    { id: '4', bloodName: 'O' }
+    ]
+   }
